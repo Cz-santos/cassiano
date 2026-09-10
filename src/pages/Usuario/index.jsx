@@ -16,6 +16,9 @@ export default function Usuario(){
     function but(){
         alert("Voce tem certeza?")
     }
+    function sair(){
+        alert("Voce saiu da area do mouse")
+    }
     
     return(
         <div className='tudo'> 
@@ -58,7 +61,7 @@ export default function Usuario(){
 
                 <div className='mouse'>
                     <div className='a'>
-                        <h1 onMouseEnter={mouse}>Area de Mouse</h1>
+                        <h1 onMouseEnter={mouse} onMouseLeave={sair}>Area de Mouse</h1>
                     </div>
                 </div>
             </div>
