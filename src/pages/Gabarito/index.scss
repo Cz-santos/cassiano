@@ -1,0 +1,27 @@
+.teste{
+    .body{
+        font-size: 10px;
+    }
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.2em;
+    align-items: center;
+    font-size: medium;
+
+    .butao{
+        border: 0.1em solid black;
+        padding: 0.1em 1em;
+        border-radius: 2em;
+        font-style: italic;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+    }
+    .burd{
+        border: none;
+        outline: none;
+
+        
+    }
+}

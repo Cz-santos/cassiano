@@ -1,0 +1,85 @@
+body{
+    font-size: 10px;
+    .tudo{
+        display: flex;
+        justify-content: center;
+    }
+    .titulo{
+        display: flex;
+        font-size: 4em;
+        font-style: italic;
+        color: rgb(0, 0, 0);
+        
+    }
+
+    .Usuario{
+        display: flex;
+        justify-items: center;
+        margin-bottom: 50em;
+        flex-direction: column;
+
+    }
+    .email{
+        padding:0.1em ;
+        border:  solid black 0.1em ;
+        background-color: white;
+        margin-right: 2em;
+        border-radius: 10em;
+        flex: 1;
+       
+    }
+
+    .in{
+        border: 0,1em solid black;
+        width: 20em;
+        height: 1em;
+        display: flex;
+        padding: 0.2em 2em  ;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2em;
+        outline: none;
+        border: none; 
+    }
+        
+    .Select{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .senha{
+        padding:0.1em ;
+        border:  solid black 0.1em ;
+        background-color: white;
+        margin-right: 2em;
+        border-radius: 10em;
+        flex: 1;
+    }
+    .a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        height: 20em;
+        border: 0.1em solid black;
+        border-radius: 0.1em;
+        width:50em;
+        border-radius: 1em;
+
+    }
+    .bot{
+         border: 0.1em solid black;
+        border-radius: 2em;
+        font-style: italic;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}
