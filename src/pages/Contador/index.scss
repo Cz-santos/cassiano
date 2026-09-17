@@ -1,0 +1,30 @@
+body{
+    font-size: 10px;
+    .tudo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 2em;
+        margin-top: 20em;
+    }
+
+    .soma{
+        background-color:  green;
+        border: none;
+        color: white;
+        padding:1.4em 1.6em ;
+        border-radius: 1em;
+    }
+    .menos{
+         background-color:  red;
+        border: none;
+        color: white;
+        padding:1.4em 1.6em ;
+        border-radius: 1em;
+    }
+
+    p{
+        font-size: 2em;
+    }
+}
