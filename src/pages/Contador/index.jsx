@@ -1,30 +1,27 @@
 import './index.scss'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import { useState } from 'react';
 
-let c = 0;
+export default function Contador() {
+    const [conta, setconta] = useState(0);
 
-function cont (){
- c++
- 
- alert(c)
-}
-function menos(){
-    c--
+    function menos() {
+        setconta(conta - 1)
+    }
+    
+    function mais() {
+        setconta(conta + 1)
+    }
 
-    alert(c)
-}
+    return (
+        <div className='tudo'>
+            <button className='soma' onClick={mais}><p className='te'>+</p></button>
+            <p>{conta}</p>
+            <button className='menos' onClick={menos}><p className='ti'>-</p></button>
+
+            <Link to='/'>   </Link>
+        </div>
 
 
-export default function conta(){
-        return(
-            <div className='tudo'>
-                <button className='soma' onClick={cont}>+</button>
-                <p> {c} </p>
-                <button className='menos' onClick={menos}>-</button>
-
-                 <Link to='/'>   </Link>
-            </div>
-
-           
-        )
+    )
 }

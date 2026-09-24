@@ -5,26 +5,37 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        gap: 2em;
+        gap: 10em;
         margin-top: 20em;
-    }
+    }   
 
     .soma{
         background-color:  green;
         border: none;
         color: white;
-        padding:1.4em 1.6em ;
         border-radius: 1em;
+        width: 20em;
+        height: 10em;
+        align-items: center;
     }
     .menos{
          background-color:  red;
         border: none;
         color: white;
-        padding:1.4em 1.6em ;
         border-radius: 1em;
+         width: 20em;
+        height: 10em;
+        align-items: center;
     }
 
     p{
-        font-size: 2em;
+        font-size: 4em;
+    }
+
+    .te{
+        font-size: 4em;
+    }
+    .ti{
+        font-size: 4em;
     }
 }
