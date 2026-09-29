@@ -1,0 +1,34 @@
+body{
+    align-items: center;
+    display:flex ;
+    font-size: 10px;
+    .tudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 70em;
+        h1{
+            font-size:9em;
+        }
+
+        input{
+            font-size:4em;
+            border: 0.1em black solid;
+
+        }
+        .in{
+        border: 0,1em solid black;
+        width: 20em;
+        height: 1em;
+        display: flex;
+        padding: 0.2em 2em  ;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2em;
+        outline: none;
+    }
+    }
+
+
+
+}
