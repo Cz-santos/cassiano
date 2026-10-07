@@ -6,7 +6,6 @@ export default function T(){
     const[mude,setmede] = useState("Sou o Cassio");
     const[desc,setdesc] =useState("?");
     const[desc2,setdesc2] = useState("?");
-    const[cor,setcor] = useState("");
     
 
     function mudar(e){
@@ -22,18 +21,16 @@ export default function T(){
         setdesc(b)
       }
 
-      function mudcor(){
-        setcor(cor)
-      }
+    
     return(
-        <div className='tudo' style={{background:cor}}>
+        <div className='md'>
             <h1>{mude}</h1>
            <input onChange={mudar} className='in' type="text" placeholder="Seu nome " />
            <h1>{desc2}</h1>
            <input onChange={a} className='in' type="text" placeholder="Seu nome " />
-           <button onClick={troca}>Mudar</button>  
-             
-           <input onChange={mudcor}  type="color" />
+           <br />
+           <button className='oi' onClick={troca}>Mudar</button>  
+           
         </div>
     )
 }

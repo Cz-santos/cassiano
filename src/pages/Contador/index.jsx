@@ -14,12 +14,12 @@ export default function Contador() {
     }
 
     return (
-        <div className='tudo'>
+        <div className='casa'>
             <button className='soma' onClick={mais}><p className='te'>+</p></button>
             <p>{conta}</p>
             <button className='menos' onClick={menos}><p className='ti'>-</p></button>
 
-            <Link to='/'>   </Link>
+            <Link to='/'> Voltar </Link>
         </div>
 
 

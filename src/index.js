@@ -6,8 +6,9 @@ import Gabarito from './pages/Gabarito/index.jsx';
 import Usuario from './pages/Usuario/index.jsx';
 import './pages/Contato/index.scss';
 import Contador from './pages/Contador/index.jsx';
-import T from './pages/Text/index.jsx'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import T from './pages/Text/index.jsx';
+import Cal from './pages/Calculadora/index.jsx'
+import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
 
 
 
@@ -22,6 +23,7 @@ root.render(
       <Route path='/u' element={<Usuario/>} ></Route>
       <Route path='con' element ={<Contador/>} ></Route>
       <Route path = '/t' element ={<T/>}></Route>
+      <Route path='/ca' element = {<Cal/>}></Route>
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

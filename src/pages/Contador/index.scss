@@ -1,41 +1,36 @@
-body{
-    font-size: 10px;
-    .tudo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        gap: 10em;
-        margin-top: 20em;
-    }   
+body { 
+  font-size: 10px; 
+} 
 
-    .soma{
-        background-color:  green;
-        border: none;
-        color: white;
-        border-radius: 1em;
-        width: 20em;
-        height: 10em;
-        align-items: center;
-    }
-    .menos{
-         background-color:  red;
-        border: none;
-        color: white;
-        border-radius: 1em;
-         width: 20em;
-        height: 10em;
-        align-items: center;
-    }
+.casa{ 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: row; 
+  gap: 1em; 
+  margin-top: 2em; 
+} 
 
-    p{
-        font-size: 4em;
-    }
+.soma { 
+  background-color: green; 
+  border: none; 
+  color: white; 
+  border-radius: 1em; 
+  width: 5em; 
+  height: 4em; 
+  align-items: center; 
+} 
 
-    .te{
-        font-size: 4em;
-    }
-    .ti{
-        font-size: 4em;
-    }
+.menos { 
+  background-color: red; 
+  border: none; 
+  color: white; 
+  border-radius: 1em; 
+  width: 5em; 
+  height: 4em; 
+  align-items: center; 
+} 
+
+p, .te, .ti { 
+  font-size: 4em; 
 }

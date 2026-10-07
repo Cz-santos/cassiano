@@ -21,7 +21,7 @@ export default function Usuario(){
     }
     
     return(
-        <div className='tudo'> 
+        <div className='ola'> 
         <div className='Usuario'>
             <h1  className='titulo' onClick={alerta}>Cadastro </h1>
             <div className='email'>
@@ -65,7 +65,7 @@ export default function Usuario(){
                     </div>
                 </div>
             </div>
-                   <Link  to="/"> <p className="bot" onClick={but}>Voltar</p></Link>
+                   <Link  to="/"> <p className="bt" onClick={but}>Voltar</p></Link>
             </div>
      
             </div>      

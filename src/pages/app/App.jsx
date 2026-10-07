@@ -18,6 +18,10 @@ function App() {
       <Link to='con'><p className='bot' onClick={alerta}> Contador</p></Link>
       <Link to ='t'> <p className='bot' onClick={alerta}> Texto muda </p></Link>
       
+      <Link to = 'ca' ><p className='bot' onClick={alerta}> Calculadora</p></Link>
+      
+
+      
       </div>
     </div>
   );

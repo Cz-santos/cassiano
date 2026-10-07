@@ -15,7 +15,7 @@ function teste (e){
     alert(` Voce digitou ${novo}`)
 }
     return(
-        <div className="teste">
+        <div className="Gabarito">
             <h1 onClick={alerta}> Gabarito</h1>
              <p onMouseMove={susto}> Responda abaixo</p>
              <div className="test">
@@ -47,7 +47,7 @@ function teste (e){
             <input type="radio" name="opcao" />
             d
           </label>
-            <Link to="/"> <p className="butao" onChange={alerta}>Voltar</p></Link>
+            <Link to="/"> <p className="btao" onChange={alerta}>Voltar</p></Link>
              </div>
 
     )
