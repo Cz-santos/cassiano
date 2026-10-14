@@ -1,6 +1,7 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
+import Cab from "../../components/index"
 
 export default function Contador() {
     const [conta, setconta] = useState(0);
@@ -15,6 +16,7 @@ export default function Contador() {
 
     return (
         <div className='casa'>
+
             <button className='soma' onClick={mais}><p className='te'>+</p></button>
             <p>{conta}</p>
             <button className='menos' onClick={menos}><p className='ti'>-</p></button>

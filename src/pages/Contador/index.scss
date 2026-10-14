@@ -6,8 +6,7 @@ body {
   display: flex; 
   justify-content: center; 
   align-items: center; 
-  flex-direction: row; 
-  gap: 1em; 
+  flex-direction: column; 
   margin-top: 2em; 
 } 
 
@@ -32,5 +31,5 @@ body {
 } 
 
 p, .te, .ti { 
-  font-size: 4em; 
+  font-size: 5em; 
 }

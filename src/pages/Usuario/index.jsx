@@ -1,5 +1,6 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
+import Cab from "../../components/index"
 
 export default function Usuario(){
     function alerta(){
@@ -23,6 +24,7 @@ export default function Usuario(){
     return(
         <div className='ola'> 
         <div className='Usuario'>
+             <Cab/>
             <h1  className='titulo' onClick={alerta}>Cadastro </h1>
             <div className='email'>
             <input onChange={int} className='in' type="text" placeholder='Nome usuario'></input>

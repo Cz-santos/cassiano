@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './index.scss'
-
+import Cab from "../../components/index"
 
 export default function T(){
     const[mude,setmede] = useState("Sou o Cassio");
@@ -24,6 +24,7 @@ export default function T(){
     
     return(
         <div className='md'>
+           <Cab/>
             <h1>{mude}</h1>
            <input onChange={mudar} className='in' type="text" placeholder="Seu nome " />
            <h1>{desc2}</h1>
