@@ -1,5 +1,6 @@
 import "./index.scss"
 import { useState } from "react"
+import Cab from'../../components/index.jsx'
 
 export default function Cal(){
 const[n1,setn1] = useState("")
@@ -11,10 +12,19 @@ let som = Number(n1) + Number(n2)
 setresp(som)
  }
 
+ function sub(){
+    let sum =Number(n1)-Number(n2)
+    setresp(sum)
+ }
+
+
 
  return(
     <section className="Calculadora">
-        <h2>Calculadora </h2>
+        <Cab/>
+<br>
+</br>
+    <h2>Calculadora </h2>
     <div className="inpu">
     <div className="inp2">
     <input type="text" value={n1} onChange={(e)=>setn1(e.target.value)} />
@@ -26,8 +36,10 @@ setresp(som)
     <div className="numero">{resp}</div>
     <br />
     <br />
-    
+    <div className="Calbot">
     <button className="buc" onClick={soma}> somar</button>
+    <button className="buc" onClick={sub}> subtraçao</button>
+    </div>
     </section>
 
  )
