@@ -1,6 +1,6 @@
 import "./index.scss"
 import { useState } from "react"
-import Cab from'../../components/index.jsx'
+import Cab from'../../components/Cabeex1/index.jsx'
 
 export default function Cal(){
 const[n1,setn1] = useState("")

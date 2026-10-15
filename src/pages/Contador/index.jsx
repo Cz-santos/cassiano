@@ -1,7 +1,7 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
-import Cab from "../../components/index"
+import Cab from "../../components/Cabeex1/index"
 
 export default function Contador() {
     const [conta, setconta] = useState(0);

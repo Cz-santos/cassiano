@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import './index.scss'
-import Cab from "../../components/index"
+import Cab from "../../components/Cabeex1/index"
 
 export default function Contato(){
     return(

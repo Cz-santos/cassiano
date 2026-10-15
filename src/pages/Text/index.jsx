@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './index.scss'
-import Cab from "../../components/index"
+import Cab from "../../components/Cabeex1/index"
 
 export default function T(){
     const[mude,setmede] = useState("Sou o Cassio");
