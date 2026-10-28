@@ -8,6 +8,7 @@ import Contador from './pages/Contador/index.jsx';
 import T from './pages/Text/index.jsx';
 import Cal from './pages/Calculadora/index.jsx'
 import Cep from './pages/Cep/index.jsx'
+import In from './pages/ingresso/index.jsx'
 import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
 
 
@@ -24,6 +25,7 @@ root.render(
       <Route path = '/t' element ={<T/>}></Route>
       <Route path='/ca' element = {<Cal/>}></Route>
       <Route path="/cep" element= {<Cep/>}></Route>
+      <Route path ="/in" element = {<In/>}></Route>
     </Routes>
   </BrowserRouter>
   </React.StrictMode>
