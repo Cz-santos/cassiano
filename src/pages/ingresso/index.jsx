@@ -1,5 +1,6 @@
 import "./index.scss"
 import { useState } from 'react'
+import Cab from '../../components/Cabeex1/index.jsx'
 
 
 export default function In() {
@@ -36,7 +37,8 @@ export default function In() {
 
 
     return (
-        <div className="tudo-ing">
+     <div className="tudo-ing">
+        <Cab titulo ='Cinema'/>
             <input type="number" value={qtd} onChange={(e) => setqtd(e.target.value)} placeholder="Quantidade" />
             <input type="text" value={cas} onChange={(e) => setcas(e.target.value)} placeholder="Cupom" />
             <button className="but-ingre" onClick={contas}> Calcular </button>
