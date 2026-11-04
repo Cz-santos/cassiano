@@ -9,6 +9,7 @@ import T from './pages/Text/index.jsx';
 import Cal from './pages/Calculadora/index.jsx'
 import Cep from './pages/Cep/index.jsx'
 import In from './pages/ingresso/index.jsx'
+import Açai from "./pages/Açai/index.jsx"
 import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
 
 
@@ -26,6 +27,7 @@ root.render(
       <Route path='/ca' element = {<Cal/>}></Route>
       <Route path="/cep" element= {<Cep/>}></Route>
       <Route path ="/in" element = {<In/>}></Route>
+      <Route path ='/Açai' element = {<Açai/>}></Route>
     </Routes>
   </BrowserRouter>
   </React.StrictMode>
