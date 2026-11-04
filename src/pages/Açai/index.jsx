@@ -5,7 +5,8 @@ export default function Açai() {
     const [tam, settam] = useState("")
     const [Quant, setQuant] = useState(0)
     const[Valor, setValor] = useState(0)
-    const{cupom, setcupom} = useState("")
+    const[cupom, setcupom] = useState("")
+    const[cobe, setcobe] = useState("")
 
 
 
@@ -23,6 +24,13 @@ export default function Açai() {
 
    if(tam==='grande'){
         valor= 20 * Quant
+    }
+
+    if(cobe==="Morango(+1 real)"){
+        valor= valor*Quant+1
+    }
+       if(cobe==="Chocolate(+2 real)"){
+        valor= valor*Quant+2
     }
 
     if(cupom.toLocaleUpperCase() =="Cassiano"){
@@ -43,6 +51,15 @@ export default function Açai() {
                     <option value="grande"> grande </option>
                 </select>
             </div>
+
+            <div className="Copertura">
+                <select value={cobe} onChange={(e)=>setcobe(e.target.value)}>
+                <option value="Morango"><p>Morango(+1 real)</p></option>
+                <option value ="Chocolate"><p> Chocolate(+2 real)</p></option>
+                </select>
+            </div>
+
+
 
             <div className="quantidade">
             <input type="number" value={Quant} onChange={(e) => setQuant(e.target.value )}  placeholder="Quantidade"/>
